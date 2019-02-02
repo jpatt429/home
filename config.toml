@@ -1,11 +1,12 @@
 baseURL = "https://clever-thompson-6cf933.netlify.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Hugo Hermit"
+title = "James Patteson"
 theme = "hermit"
 # enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
+pluralizelisttitles = false
 # hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
@@ -13,8 +14,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 # googleAnalytics = "UA-123-45"
 # disqusShortname = "yourdiscussshortname"
 
+
+
 [author]
-  name = "John Doe"
+  name = "James Patteson"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -30,13 +33,16 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+  
+
 
   # Metadata mostly used in document's head
   # description = ""
   # images = [""]
-  themeColor = "#494f5c"
+  #Original Color #494f5c
+  themeColor = "#ff0000"
 
-  homeSubtitle = "A minimal and fast theme for Hugo."
+  homeSubtitle = "Graduate Student."
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -56,8 +62,8 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     url = "https://twitter.com/"
 
   [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/"
+    name = "linkedin"
+    url = "https://linkedin.com/"
 
   [[params.social]]
     name = "github"
@@ -65,12 +71,19 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
 [menu]
 
-  [[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 10
-
-  [[menu.main]]
+    [[menu.main]]
     name = "About"
     url = "about-hugo/"
+    weight = 10
+
+    [[menu.main]]
+    name = "Posts"
+    url = "posts/"
     weight = 20
+    
+    [[menu.main]]
+    name = "Work"
+    url = "work/"
+    weight = 30
+
+
